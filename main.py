@@ -40,11 +40,11 @@ if playerAnswer['Stealth'] >= 7:
 
 
 for item in myClass:
-    if playerAnswer['Combat'] == 7 and int(item[2]) == 7:
+    if playerAnswer['Combat'] == 7 and item[2] == '7':
         finalPlayerClass = item[1]
-    if playerAnswer['Magic'] == 7 and int(item[3]) == 7:
+    if playerAnswer['Magic'] == 7 and item[3] == '7':
         finalPlayerClass = item[1]
-    if playerAnswer['Stealth'] == 7 and int(item[4]) == 7:
+    if playerAnswer['Stealth'] == 7 and item[4] == '7':
         finalPlayerClass = item[1]
     if playerAnswer['Stealth'] == 4 and item[4] == '0-6':
         finalPlayerClass = item[1]
